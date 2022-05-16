@@ -1,0 +1,39 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2022-05-16 15:41:16.317  INFO 83110 --- [           main] c.e.s.ServingWebContentApplication       : Starting ServingWebContentApplication v1.0-SNAPSHOT using Java 17.0.2 on MacBook-Air-Sahman.local with PID 83110 (/Users/sahmanmagomadov/Desktop/sweater/target/sweater-1.0-SNAPSHOT.jar started by sahmanmagomadov in /Users/sahmanmagomadov/Desktop/sweater)
+2022-05-16 15:41:16.318  INFO 83110 --- [           main] c.e.s.ServingWebContentApplication       : No active profile set, falling back to default profiles: default
+2022-05-16 15:41:16.672  INFO 83110 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-16 15:41:16.707  INFO 83110 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2022-05-16 15:41:17.037  INFO 83110 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-16 15:41:17.043  INFO 83110 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-16 15:41:17.043  INFO 83110 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-05-16 15:41:17.069  INFO 83110 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-16 15:41:17.070  INFO 83110 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 731 ms
+2022-05-16 15:41:17.168  INFO 83110 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-16 15:41:17.220  INFO 83110 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-16 15:41:17.229  INFO 83110 --- [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 8.0.5 by Redgate
+2022-05-16 15:41:17.229  INFO 83110 --- [           main] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:postgresql://localhost/sweater (PostgreSQL 14.2)
+2022-05-16 15:41:17.250  INFO 83110 --- [           main] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.011s)
+2022-05-16 15:41:17.255  INFO 83110 --- [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 3
+2022-05-16 15:41:17.255  INFO 83110 --- [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2022-05-16 15:41:17.307  INFO 83110 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-16 15:41:17.335  INFO 83110 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-05-16 15:41:17.435  INFO 83110 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-16 15:41:17.509  INFO 83110 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-05-16 15:41:17.908  INFO 83110 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-16 15:41:17.912  INFO 83110 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-16 15:41:18.004  WARN 83110 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-16 15:41:18.341  INFO 83110 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67c5ac52, org.springframework.security.web.context.SecurityContextPersistenceFilter@7979b8b7, org.springframework.security.web.header.HeaderWriterFilter@6ed16657, org.springframework.security.web.csrf.CsrfFilter@3ad4a7d6, org.springframework.security.web.authentication.logout.LogoutFilter@4af70944, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c008c24, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bc49bc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@124ac145, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@21079a12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36417a54, org.springframework.security.web.session.SessionManagementFilter@113e13f9, org.springframework.security.web.access.ExceptionTranslationFilter@14823f76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44bd4b0a]
+2022-05-16 15:41:18.564  INFO 83110 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-16 15:41:18.572  INFO 83110 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-05-16 15:41:18.578  INFO 83110 --- [           main] c.e.s.ServingWebContentApplication       : Started ServingWebContentApplication in 2.451 seconds (JVM running for 2.638)
+2022-05-16 15:42:19.194  INFO 83110 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-16 15:42:19.194  INFO 83110 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-16 15:42:19.199  INFO 83110 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
